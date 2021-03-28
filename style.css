@@ -1,0 +1,45 @@
+header{
+    background-color:#370858;
+    border-bottom: 8px solid #9370DB;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    background-color:#370858;
+    text-align: right;
+
+}
+a{
+    display: inline-flex;
+    color:#edc2c2;
+    size:20px;
+    font-family: "fira code",sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 40px;
+    align-items: center;
+    padding:20px ;
+    
+}
+#a:hover{
+    transform: scale(2);
+}
+
+#logo{
+    height: 60px;
+}
+
+#button{
+    background-color:#9370DB;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 9px 10px;
+    box-shadow: 5px 5px #edc2c2;
+    border:1px solid #000;
+
+}
+#button:hover{
+    transition: scale(3);
+    opacity: 0,2;
+}
